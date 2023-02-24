@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="starwarswebsite.css" type="text/css">
+</head>
+<body id="body" style="background: url('https://static.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20190313021755') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+<button id="button">Click Here</button>
+<button id="backButton">Go Back</button>
+
+<div class="parentDiv" style="display: flex; justify-content: center;">
+    <div class="characters" style="text-align: center;">
+        <img class="character" src="https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg">
+        <br><br>
+        <button class="charactersButton">Choose Characters</button>
+    </div>
+    <div class="spaceships" style="text-align: center;">
+        <img class="spaceship" src="https://lumiere-a.akamaihd.net/v1/images/Star-Destroyer_ab6b94bb.jpeg?region=0%2C50%2C1600%2C800">
+        <br><br>
+        <button class="spaceshipsButton">Choose Spaceships</button>
+    </div>
+</div>
+<div class="tableDiv" style="display: flex; justify-content: center;">
+    <table id="charactersTable" border="2px yellow">
+        <tr>
+            <th>Name</th>
+            <th>Height (cm)</th>
+            <th>Weight (kg) </th>
+            <th>Gender</th>
+            <th>Birth Year</th>
+            <th>Appearance</th>
+        </tr>
+    </table>
+</div>
+<div class="tableButtons" style="display: flex; justify-content: center;">
+    <br><br>
+    <button id="previousButton">Previous</button>
+    <button id="nextButton">Next</button>
+</div>
+<div class="spaceshipTable" style="display: flex; justify-content: center;">
+    <table id="spaceshipTable" border="2px yellow">
+        <tr>
+            <th>Name</th>
+            <th>Model</th>
+            <th>Manufacturer</th>
+            <th>Cost (Credits)</th>
+            <th>People Capacity</th>
+            <th>Class</th>
+        </tr>
+    </table>
+</div>
+<div class="spaceshipButtons" style="display: flex; justify-content: center;">
+    <button id="previousSButton">Previous</button>
+    <button id="nextSButton">Next</button>
+</div>
+
+<script src="./lib/jquery-3.6.2.js"></script>
+<script src="starwarswebsite.js"></script>
+</body>
+</html>
