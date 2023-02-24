@@ -1,0 +1,48 @@
+#button {
+    background: none;
+    border: none;
+    color: yellow;
+    font-size: 40px;
+    top: 850px;
+    left: 850px;
+    position: relative;
+}
+
+.character {
+    width: 300px;
+    
+}
+.spaceship {
+    width: 400px;
+}
+.parentDiv{
+    position: relative;
+    top: 300px;
+}
+.spaceshipsButton, .charactersButton {
+    border: none;
+    background: none;
+    color: yellow;
+    font-size: 40px;
+}
+
+#backButton {
+    background: none;
+    border: none;
+    color: yellow;
+    font-size: 40px;
+    position: relative;
+}
+
+#table{
+    border:2px yellow;
+    text-align: center;
+    color: yellow;
+    
+}
+#previousButton, #nextButton, #previousSButton, #nextSButton{
+    border: none;
+    background: none;
+    color: yellow;
+    font-size: 40px;
+}
